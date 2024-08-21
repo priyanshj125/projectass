@@ -36,3 +36,629 @@
     transform: rotate(360deg);
   }
 }
+/* Sidebar.css */
+
+/* .sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #3A3B3C;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .logo {
+  font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 40px;
+  background-color: #bd3631;
+  border-radius: 20%;
+  color:black;
+}
+
+.sidebar .menu-item {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar .menu-item:hover {
+  background-color: #555;
+}
+
+.sidebar .menu-item.active {
+  background-color: #1A73E8;
+}
+
+.sidebar .menu-item i {
+  margin-right: 10px;
+}
+
+.sidebar .logout {
+  margin-top: auto;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #d9534f;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar .logout:hover {
+  background-color: #c9302c;
+} */
+/* App.css */
+
+/* Sidebar.css */
+
+
+
+
+
+
+
+
+/* //fgdsgsdfgsdfg */
+
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.order-details {
+  display: flex;
+  flex: 1;
+ 
+
+}
+
+.order-list {
+  width: 100%;
+  display: inline;
+  margin-top: 0px;
+  padding: 6px;
+  overflow-y: auto;
+  background-color: #f7f8fa;
+  border-right: 1px solid #ddd;
+}
+.orders{
+  display: flex;
+  height: 200%;
+  flex-wrap: wrap;
+}
+
+.sidebar2 {
+  width: 50%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-left: 1px solid #f31e1e;
+  position: relative;
+}
+.main-ele{
+  display: flex;
+  background: rgb(245, 243, 243);
+  padding-left:1%;
+
+
+}
+.main-ele a{
+  /* padding-left: 2%; */
+  margin: 1%;
+  padding: 2%;
+  padding-top:1% ;
+  padding-bottom:1% ;
+  border-radius: 15%;
+  background-color: #fad609;
+}
+.order-card {
+  background: #fff;
+  height:40%;
+  width: 30%;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.order-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.order-card p {
+  margin: 10px 0 0 0;
+  color: #777;
+}
+
+.sidebar2 button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sidebar2 h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.sidebar2 p {
+  color: #555;
+}
+
+.sidebar2 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar2 ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar2 ul li::before {
+  content: "•";
+  color: #007bff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.sidebar2 .order-items {
+  margin-top: 20px;
+}
+
+.sidebar2 .order-items li {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.sidebar2 .order-items li span {
+  color: #333;
+  font-weight: bold;
+}
+
+.order-card button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-card button:hover {
+  background-color: #45a049;
+}
+/* App.css */
+
+.app {
+  display: flex;
+  height: 100vh; /* Ensure the container takes the full height of the viewport */
+}
+
+.sidebar {
+  height: 100%;
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  /* Fixed width for the sidebar */
+  background-color: #fcfdfd; /* Example background color for the sidebar */
+  top: 0;
+  left: 0;
+  padding: 2%;
+}
+.sidebar-menu{
+  display: flex;
+  flex-direction: column;
+  padding: 5% 8%;
+  margin-left: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sidebar-menu a:hover {
+  background-image: linear-gradient(45deg, #ce4ab8, #f7f5f5); /* Example gradient */
+  border-radius: 40px;
+  padding-left:50% ;
+  padding-right:50% ;
+}
+
+.order-details {
+  flex: 1; /* Take the remaining space */
+  background-color: #f7f7f7; /* Example background color for order details */
+  padding: 20px; /* Optional padding */
+  overflow-y: auto; 
+  margin-left: 19%;/* Allows scrolling if content overflows */
+  /* margin-top: 10%; */
+  width: 100%;
+}
+.logo{
+  height: 30%;
+  width: 29px;
+  margin-bottom: 0px;
+  padding-bottom:0px;
+  z-index: 3;
+}
+.main-nav-ele{
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+.main-navbar{
+  display: flex;
+}
+.main-navbar a {
+  padding: 10px 20px; /* Example padding */
+}
+
+/* sadfgadsfgasdgasdgasfgasfdgasfg */
+
+.dashboard-header {
+  margin-bottom: 0%;
+  height:10%;
+  
+}
+
+
+/* gsdfgsdfgsdfhsdh */
+.order-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 8px; /* Further reduce padding */
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 260px; /* Reduce max-width */
+  margin: 8px; /* Further reduce margin */
+  flex: 1 1 calc(33.333% - 16px); /* Adjust flex-basis */
+  display: flex;
+  flex-direction: column;
+}
+
+.order-card h2, .order-card p {
+  margin: 0px 0; /* Further reduce margin between elements */
+  font-size: 4px; /* Further reduce font size */
+}
+
+.order-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-card th, .order-card td {
+  border: 1px solid #ddd;
+  /* Further reduce padding inside table cells */
+  font-size: 11px; /* Further reduce font size for table content */
+}
+
+.order-card .order-table {
+  overflow-x: auto; /* Keep the table scrollable if needed */
+}
+
+.amount-section p,
+.instructions p {
+    font-size: 1;
+}
+
+.action-buttons,
+.payment-options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.action-buttons .btn-primary,
+.btn-secondary,
+.btn-success {
+  flex: 1;
+padding: 0px;
+margin: 0px;
+  border-radius:15%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 11px; /* Further reduce font size in buttons */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-success {
+  background-color: #250b97;
+  color: white;
+}
+.order-card .btn-primary,
+.btn-secondary,
+.btn-success {
+  flex: 1;
+  margin: 1px;
+  padding: 2px 3px; /* Reduced padding */
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 10px; /* Reduced font size */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #104b80;
+  color: white;
+}
+
+.btn-success {
+  background-color: #2f5d83;
+  color: rgb(187, 25, 25);
+  }
+
+.order-number{
+  color: white;
+  background-color: #07396e;
+  padding: 0%;
+  margin: 0%;
+  border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sidebar2.css */
+
+.sidebar2 {
+  height: 100%;
+  width: 60%;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+  overflow-y: auto;
+}
+.sidebar2 img{
+  border-radius: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 0.6rem;
+  cursor: pointer;
+  color: #555;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  width: 48%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tab-buttons .active {
+  background-color: #6200ee;
+  color: white;
+}
+
+.tab-buttons button:not(.active) {
+  background-color: #f5f5f5;
+  color: #6200ee;
+}
+
+.order-details p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom:20%;
+}
+
+.items {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.item-details span {
+  display: block;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-items {
+  background-color: #ffc107;
+  color: white;
+}
+
+.print-kot {
+  background-color: #000;
+  color: white;
+}
+
+.print-invoice {
+  background-color: #333;
+  color: white;
+}
+
+.pay-later {
+  background-color: #4caf50;
+  color: white;
+}
+
+.instructions {
+  margin-bottom: 20px;
+}
+
+.instructions h3 {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.instructions ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #6200ee;
+}
+
+.payment-options h3 {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.payment-options button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.accept-cash {
+  background-color: #4caf50;
+  color: white;
+}
+.update-order {
+  background-color: #ffeb3b;
+  color: #333;
+}
+a {
+  display: block;
+  margin: 5%;
+  padding: 0%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}

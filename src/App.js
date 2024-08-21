@@ -1,25 +1,34 @@
 import logo from './logo.svg';
+import React from 'react';
+import Sidebar from './components/Sidebar'
+// import Header from './components/Header.js';
+import SearchBar from './components/SearchBar';
+import OrderDetails from './components/orderdetail';
+// import DinnerMenu from './components/DinnerMenu.js';
+import CartInformation from './components/CartInformation';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="app container">
+    
+    <Sidebar />
+    {/* <SearchBar/> */}
+    {/* <SearchBar/> */}
+    <OrderDetails />
+
+</div>
   );
 }
 
 export default App;
+
+
+// function App() {
+//     return (
+     
+//     );
+// }
+
+// export default App;
+
